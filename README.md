@@ -6,7 +6,7 @@
 
 ## Live Version
 
-**[Clique aqui! :)](https://carollimeres.github.io/shock)**
+**[Clique aqui! :)](https://carollimeres.github.io/TrabalhoPratico_01_Carolina/)**
 
 ## Sobre o Projeto
 
