@@ -1,0 +1,64 @@
+body {
+  background-image: url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.conteudo {
+  height: 100%;
+}
+
+.contatos-nav {
+  color: var(--main-yellow);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2.25rem;
+}
+
+.nome-container,
+.email-container,
+.mensagem-container {
+  padding: 0.75rem;
+  max-width: 25rem;
+  width: 100%;
+  background-color: var(--navbar-background);
+  border-radius: 5px;
+  color: var(--white);
+}
+
+.botao-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.botao-form {
+  color: var(--white);
+  background-color: var(--navbar-background);
+  box-shadow: 0 0 0 1px var(--main-yellow);
+  border-radius: 5px;
+  padding: 1.15rem 2rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: 200px;
+
+  margin-bottom: 3.75rem;
+}
+
+.texto-botao {
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 1.75rem;
+}
+
+.botao-form:hover {
+  box-shadow: 0 0 0 2.5px var(--main-yellow);
+}

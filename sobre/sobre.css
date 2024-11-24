@@ -1,0 +1,51 @@
+body {
+  background-image: url("/background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.sobre-nav {
+  color: var(--main-yellow);
+}
+
+.conteudo {
+  height: 100%;
+}
+
+.imagem-texto-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.imagem-banda {
+  max-width: 31.25rem;
+  border-radius: 10px;
+  border: 2px solid var(--main-yellow);
+}
+
+.texto-sobre {
+  max-width: 31.25rem;
+  margin-bottom: 3.75rem;
+  text-align: justify;
+}
+
+@media screen and (max-width: 999px) {
+  .imagem-texto-container {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .imagem-banda {
+    max-width: 25rem;
+    margin-bottom: 3.75rem;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .imagem-banda {
+    max-width: 20rem;
+  }
+}

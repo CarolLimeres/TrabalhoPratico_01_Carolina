@@ -1,0 +1,22 @@
+body {
+  background-image: url("/imagem-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 7rem;
+}
+
+.conteudo {
+  height: 100%;
+}
